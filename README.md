@@ -13,9 +13,9 @@ This project serves as an image classifier. It allows users to select a region w
 
 
 # Sample Results
-Remark: This program makes use of pre-computed SIFT and deep features, as well as their associated images. Altogether, the program's initialization requires about 6 GB of data.
+Remark: This program makes use of pre-computed SIFT and deep features, as well as their associated images. Altogether, the program's initialization requires about 6 GB of data. 
 
-For convenience, sample results have been provided for both full-frame and region-based queries. Please see the ```sample_outputs``` directory. Its layout and contents are detailed in the following [section](https://github.com/jschhie/image-detector-prog/#directory-layout-and-contents)
+For sake of convenience and clarity, sample results have been provided for both full-frame and region-based queries. Please see the ```sample_outputs``` directory. Its layout and contents are detailed in the next [section](https://github.com/jschhie/image-detector-prog/#directory-layout-and-contents).
 
 ## Directory Layout and Contents
 This section pertains to the ```sample_outputs``` directory. Its subdirectories and their contents are summarized below.

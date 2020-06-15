@@ -9,6 +9,7 @@ This project serves as an image classifier. It allows users to select a region w
 # Table of Contents
 * [Sample Results](https://github.com/jschhie/image-detector-prog/#sample-results)
   * ["Sample Outputs" Directory: Layout & Contents](https://github.com/jschhie/image-detector-prog/#directory-layout-and-contents)
+* [Terminology Mentioned](https://github.com/jschhie/image-detector-prog/#terminology-mentioned)
 * [Acknowledgments](https://github.com/jschhie/image-detector-prog/#acknowledgments)
 
 
@@ -23,11 +24,13 @@ This section pertains to the ```sample_outputs``` directory. Its subdirectories 
 | Subdirectory Name | Description of Contents |
 | :---: | ----- |
 | ```full_frames``` | Sample results based on full-frame queries. |
-| ```full_frames_comparison``` | Visual comparison between AlexNet image classification and SIFT-based descriptors. This project is based on the latter. Serves to illustrate program's accuracy/effectiveness. |
+| ```full_frames_comparison``` | Visual comparison between AlexNet Image Classification and SIFT-based descriptors. This project is based on the latter. Serves to illustrate program's accuracy/effectiveness. |
 | ```raw_matches``` | Sample queried region versus computed raw SIFT descriptors. |  
 | ```region_based``` | Sample results based on region-based queries. |
 | ```visual_vocab``` | Sample visual vocabulary (aka bag-of-words, where each image patch represents a "word"). |
 
+# Terminology Mentioned
+The following list briefly highlights the terminology mentioned used in this README.
 
 # Acknowledgments
 My former professor provided the template code (which can be found within the ```provided_code``` directory) and said dataset. Besides these, I implemented the rest of the source code with a coding partner. Lastly, this README was written by myself.

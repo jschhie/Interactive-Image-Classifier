@@ -9,16 +9,21 @@ A brief description of the terminology used within this document can be found [h
 
 
 # Table of Contents
-* [Sample Queries & Results](https://github.com/jschhie/image-detector-prog/#sample-queries-and-results)
+* [Sample Queries & Results](https://github.com/jschhie/image-detector-prog/#sample-results)
   * ["Sample Outputs" Directory: Layout & Contents](https://github.com/jschhie/image-detector-prog/#directory-layout-and-contents)
 * [Terminology Mentioned](https://github.com/jschhie/image-detector-prog/#terminology-mentioned)
 * [Acknowledgments](https://github.com/jschhie/image-detector-prog/#acknowledgments)
 
 
-# Sample Queries and Results
+# Sample Results
 This program makes use of pre-computed SIFT and deep features, as well as their associated images. Altogether, the program's initialization requires about 6 GB of data. 
 
-For sake of convenience and clarity, sample results have been provided for both full-frame and region-based queries. Please see the ```sample_outputs``` directory. Its layout and contents are detailed in the next [section](https://github.com/jschhie/image-detector-prog/#directory-layout-and-contents).
+For sake of convenience and clarity, sample results have been provided for both full-frame and region-based queries. 
+
+## Sample Full-Frame Query 
+![alt text](https://github.com/jschhie/image-detector-prog/blob/master/sample_outputs/full_frames/full%20frame%20matches%201.jpg?raw=true)
+
+Please see the ```sample_outputs``` directory for additional examples. Its layout and contents are detailed in the next [section](https://github.com/jschhie/image-detector-prog/#directory-layout-and-contents).
 
 ## Directory Layout and Contents
 This section pertains to the ```sample_outputs``` directory. Its subdirectories and their contents are summarized below.

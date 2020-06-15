@@ -1,5 +1,3 @@
-# README in progress
-
 # Image Classifier
 > Created in Spring 2019 using MATLAB.
 

@@ -20,4 +20,4 @@ For convenience, sample results have been provided for both full-frame and regio
 
 
 # Acknowledgments
-My former professor provided the template code, which can be found within the ```/provided_code/``` directory. Besides this, I implemented the rest of the source code with a coding partner. Lastly, this README was created by myself.
+My former professor provided the template code, which can be found within the ```/provided_code/``` directory. Besides this, I implemented the rest of the source code with a coding partner. Lastly, this README was written by myself.

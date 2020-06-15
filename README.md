@@ -3,7 +3,7 @@
 
 
 # Project Overview
-This project serves as an image classifier. It allows users to select a region within an image of choice and retrieves the most similar video frames. Similarity scores are computed using bag-of-words modeling and k-means clustering. Results are based off of a pre-selected dataset of over 6,600 images. 
+This project serves as an image classifier. It allows users to select a region within an image of choice and retrieves the most similar video frames. Similarity scores are computed using bag-of-words modeling and k-means clustering. Results are based off of a dataset of 6,600 images. 
 
 
 # Table of Contents

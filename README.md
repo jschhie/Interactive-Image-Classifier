@@ -9,8 +9,10 @@ A brief description of the terminology used within this document can be found [h
 
 
 # Table of Contents
-* [Sample Queries & Results](https://github.com/jschhie/image-detector-prog/#sample-results)
-  * ["Sample Outputs" Directory: Layout & Contents](https://github.com/jschhie/image-detector-prog/#directory-layout-and-contents)
+* [Sample Results](https://github.com/jschhie/image-detector-prog/#sample-results)
+  * [Example I: Full-Frame Query](https://github.com/jschhie/image-detector-prog/#example-i:-full--frame-query)
+  * [Example II: Region-Based Query](https://github.com/jschhie/image-detector-prog/#example-ii:-region--based-query)
+  * [Directory Layout & Contents](https://github.com/jschhie/image-detector-prog/#directory-layout-and-contents)
 * [Terminology Mentioned](https://github.com/jschhie/image-detector-prog/#terminology-mentioned)
 * [Acknowledgments](https://github.com/jschhie/image-detector-prog/#acknowledgments)
 
@@ -20,12 +22,12 @@ This program makes use of pre-computed SIFT and deep features, as well as their 
 
 For sake of convenience and clarity, sample results have been provided for both full-frame and region-based queries. 
 
-## Full-Frame Query
+## Example I: Full-Frame Query
 > Retrieves top *n* = 5 most similar video frames.
 
 ![alt text](https://github.com/jschhie/image-detector-prog/blob/master/sample_outputs/full_frames/full%20frame%20matches%201.jpg?raw=true)
 
-## Region-Based Query
+## Example II: Region-Based Query
 > Retrieves top *n* = 5 most similar video frames containing queried object.
 
 ![alt text](https://github.com/jschhie/image-detector-prog/blob/master/sample_outputs/region_based/sample_kitchen_table/find%20kitchen%20table.jpg?raw=true)

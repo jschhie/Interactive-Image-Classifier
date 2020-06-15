@@ -25,9 +25,12 @@ This section pertains to the ```sample_outputs``` directory. Its subdirectories 
 | :---: | ----- |
 | ```full_frames``` | Sample results based on full-frame queries. |
 | ```full_frames_comparison``` | Visual comparison between AlexNet Image Classification and SIFT-based descriptors. This project is based on the latter. Serves to illustrate program's accuracy/effectiveness. |
-| ```raw_matches``` | Sample queried region versus computed raw SIFT descriptors. |  
+| ```raw_matches``` | Sample queried region versus computed SIFT descriptors. |  
 | ```region_based``` | Sample results based on region-based queries. |
 | ```visual_vocab``` | Sample visual vocabulary (aka bag-of-words, where each image patch represents a "word"). |
+
+> REMARK: The subdirectories within ```full_frames``` and ```region_based``` contain pairs of queried and retrieved images.
+
 
 # Terminology Mentioned
 The following list *briefly* highlights the terminology mentioned in this README.

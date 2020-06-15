@@ -30,7 +30,7 @@ This section pertains to the ```sample_outputs``` directory. Its subdirectories 
 | ```visual_vocab``` | Sample visual vocabulary (aka bag-of-words, where each image patch represents a "word"). |
 
 # Terminology Mentioned
-The following list briefly highlights the terminology mentioned used in this README.
+The following list *briefly* highlights the terminology mentioned in this README.
 
 * Bag-of-Words Modeling: Uses a visual vocabulary of image patches to compute similarity scores.
 * SIFT: An abbreviation for Scale-Invariant Feature Transform. A Computer Vision algorithm used to describe local features within images.

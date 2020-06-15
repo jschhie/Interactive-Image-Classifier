@@ -1,9 +1,9 @@
-# Image Classifier
+# Interactive Image Classifier
 > Created in Spring 2019 using MATLAB.
 
 
 # Project Overview
-This project serves as an image classifier. It allows users to select a region within an image of choice and retrieves the most similar video frames. Similarity scores are computed using bag-of-words modeling and k-means clustering. Results are based off of a dataset of 6,600 images. 
+This project serves as an interactive image classifier. It allows users to select a region within an image of choice and retrieves the most similar video frames. Similarity scores are computed using bag-of-words modeling and k-means clustering. Results are based off of a dataset of 6,600 images. 
 
 A brief description of the terminology used within this document can be found [here](https://github.com/jschhie/image-detector-prog/#terminology-mentioned).
 

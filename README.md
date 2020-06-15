@@ -33,7 +33,7 @@ This section pertains to the ```sample_outputs``` directory. Its subdirectories 
 
 
 # Terminology Mentioned
-The following list *briefly* highlights the terminology mentioned in this README.
+The following list *briefly* highlights some of the terminology used in this document.
 
 * __Bag-of-Words Modeling:__ Uses a visual vocabulary of image patches.
 * __SIFT (algorithm/descriptors):__ An abbreviation for Scale-Invariant Feature Transform. A Computer Vision algorithm used to describe local features within images.

@@ -12,7 +12,7 @@ A brief description of the terminology used within this document can be found [h
 * [Sample Results](https://github.com/jschhie/image-detector-prog/#sample-results)
   * [Example I: Full-Frame Query](https://github.com/jschhie/image-detector-prog/#example-i-full-frame-query)
   * [Example II: Region-Based Query](https://github.com/jschhie/image-detector-prog/#example-ii-region-based-query)
-  * [Directory Layout & Contents](https://github.com/jschhie/image-detector-prog/#directory-layout-and-contents)
+* [Directory Layout & Contents](https://github.com/jschhie/image-detector-prog/#directory-layout-and-contents)
 * [Terminology Mentioned](https://github.com/jschhie/image-detector-prog/#terminology-mentioned)
 * [Acknowledgments](https://github.com/jschhie/image-detector-prog/#acknowledgments)
 
@@ -36,7 +36,7 @@ For sake of convenience and clarity, sample results have been provided for both 
 
 Please see the ```sample_outputs``` directory for additional examples. Its layout and contents are detailed in the next [section](https://github.com/jschhie/image-detector-prog/#directory-layout-and-contents).
 
-## Directory Layout and Contents
+# Directory Layout and Contents
 This section pertains to the ```sample_outputs``` directory. Its subdirectories and their contents are summarized below.
 
 | Subdirectory Name | Description of Contents |

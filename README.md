@@ -10,13 +10,25 @@ This project serves as an image classifier. It allows users to select a region w
 
 # Table of Contents
 * [Sample Results](https://github.com/jschhie/image-detector-prog/#sample-results)
+  * ["Sample Outputs" Directory: Layout & Contents](https://github.com/jschhie/image-detector-prog/#directory-layout-and-contents)
 * [Acknowledgments](https://github.com/jschhie/image-detector-prog/#acknowledgments)
 
 
 # Sample Results
 Remark: This program makes use of pre-computed SIFT and deep features, as well as their associated images. Altogether, the program's initialization requires about 6 GB of data.
 
-For convenience, sample results have been provided for both full-frame and region-based queries. Please see the ```/p3 submission/``` directory. Each subdirectory contains a pair of queried and retrieved frames.
+For convenience, sample results have been provided for both full-frame and region-based queries. Please see the ```/sample_outputs/``` directory. Its layout and contents are detailed in the following [section](https://github.com/jschhie/image-detector-prog/#directory-layout-and-contents)
+
+## Directory Layout and Contents
+This section pertains to the ```/sample_outputs/``` directory. Its subdirectories and their contents are summarized below.
+
+| Subdirectory Name | Description of Contents |
+| :---: | :---: |
+| /full_frames/ | Sample results based on full-frame queries |
+| /full_frames_comparison/ | Visual comparison between AlexNet image classification and SIFT-based descriptors. This project is based on the latter. |
+| /raw_matches/ | Sample queried region versus computed raw SIFT descriptors |  
+| /region_based/ | Sample results based on region-based queries |
+| /visual_vocab/ | Sample visual vocabulary (aka bag-of-words, where each image patch represents a "word") |
 
 
 # Acknowledgments

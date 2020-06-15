@@ -32,5 +32,10 @@ This section pertains to the ```sample_outputs``` directory. Its subdirectories 
 # Terminology Mentioned
 The following list briefly highlights the terminology mentioned used in this README.
 
+* Bag-of-Words Modeling: Uses a visual vocabulary of image patches to compute similarity scores.
+* SIFT: An abbreviation for Scale-Invariant Feature Transform. A Computer Vision algorithm used to describe local features within images.
+* K-Means Clustering: An algorithm used to cluster, or group similar features together; used to create visual words.
+
+
 # Acknowledgments
 My former professor provided the template code (which can be found within the ```provided_code``` directory) and said dataset. Besides these, I implemented the rest of the source code with a coding partner. Lastly, this README was written by myself.

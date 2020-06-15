@@ -20,8 +20,17 @@ This program makes use of pre-computed SIFT and deep features, as well as their 
 
 For sake of convenience and clarity, sample results have been provided for both full-frame and region-based queries. 
 
-## Sample Full-Frame Query 
+## Full-Frame Query
+> Retrieves top *n* = 5 most similar video frames.
+
 ![alt text](https://github.com/jschhie/image-detector-prog/blob/master/sample_outputs/full_frames/full%20frame%20matches%201.jpg?raw=true)
+
+## Region-Based Query
+> Retrieves top *n* = 5 most similar video frames containing queried object.
+
+![alt text](https://github.com/jschhie/image-detector-prog/blob/master/sample_outputs/region_based/sample_kitchen_table/find%20kitchen%20table.jpg?raw=true)
+
+![alt text](https://github.com/jschhie/image-detector-prog/blob/master/sample_outputs/region_based/sample_kitchen_table/kitchen%20table%20matches.jpg?raw=true)
 
 Please see the ```sample_outputs``` directory for additional examples. Its layout and contents are detailed in the next [section](https://github.com/jschhie/image-detector-prog/#directory-layout-and-contents).
 

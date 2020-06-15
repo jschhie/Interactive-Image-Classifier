@@ -16,7 +16,7 @@ A brief description of the terminology used within this document can be found [h
 
 
 # Sample Queries and Results
-Remark: This program makes use of pre-computed SIFT and deep features, as well as their associated images. Altogether, the program's initialization requires about 6 GB of data. 
+This program makes use of pre-computed SIFT and deep features, as well as their associated images. Altogether, the program's initialization requires about 6 GB of data. 
 
 For sake of convenience and clarity, sample results have been provided for both full-frame and region-based queries. Please see the ```sample_outputs``` directory. Its layout and contents are detailed in the next [section](https://github.com/jschhie/image-detector-prog/#directory-layout-and-contents).
 

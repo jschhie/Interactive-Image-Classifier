@@ -38,7 +38,7 @@ The following list *briefly* highlights the terminology mentioned in this README
 * __Bag-of-Words Modeling:__ Uses a visual vocabulary of image patches.
 * __SIFT (algorithm/descriptors):__ An abbreviation for Scale-Invariant Feature Transform. A Computer Vision algorithm used to describe local features within images.
 * __K-Means Clustering:__ An algorithm used to cluster, or group similar features together; used to create visual words.
-
+* __AlexNet:__ A well-known application designed by Alex Krizhevsky; served to detect objects.
 
 # Acknowledgments
 My former professor provided the template code (which can be found within the ```provided_code``` directory) and said dataset. Besides these, I implemented the rest of the source code with a coding partner. Lastly, this README was written by myself.

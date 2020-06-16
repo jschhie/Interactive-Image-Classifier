@@ -9,7 +9,6 @@ frameInd = randperm(numFrames,4); % 4 random & unique frame indices
 
 fileIndices = 1:numFrames;
 
-
 load('kMeans.mat', 'means');
 
 for frameItr=1:4
@@ -34,10 +33,9 @@ for frameItr=1:4
     for otherFileNames=1:(numFrames-1) % compute histograms for other files
 
         otherFileName = [siftdir '/' fnames(excludeFrame(1,otherFileNames)).name];
-
         otherWordCounts = computeHistogram(otherFileName, means, [], 0);
 
-        % compute cosine similarity:
+        % Compute cosine similarity:
         numerator = dot(regWordCounts, otherWordCounts);
         otherNorm = sqrt(sum(otherWordCounts.^2));
         selNorm = sqrt(sum(regWordCounts.^2));
@@ -48,21 +46,18 @@ for frameItr=1:4
             score = 0;
         end
 
-
         load(otherFileName, 'imname');
-        imname = [framesdir '/' imname]; % get associated image with file
+        imname = [framesdir '/' imname]; % Get associated image with file
 
         frameTable = [frameTable; imname];
         scoreTable = [scoreTable; score];
 
-    end % end of computing histograms for other frames
-
+    end % End of computing histograms for other frames
 
     % Obtain indices of top 5 scores/frames
     [~,maxInds] = maxk(scoreTable,5);
 
-    % Display 5 most similar frames
-
+    % Display top 5 most similar frames
     figure;
     for itr=1:5
         framePath = frameTable(maxInds(itr,1),:);
@@ -72,26 +67,19 @@ for frameItr=1:4
         title(strcat('Similarity Rank:', int2str(itr)));
     end
 
-
 end 
 
 
-
-
-
-
 function histogram = computeHistogram(fname, means, inds, flag)
-
     % First compute membership of frame's descriptors
     load(fname, 'descriptors');
 
     data = []; % descriptors to be passed to computeMembership
 
     if (flag == 1) % if computing histogram for descriptors in a region
-
         for itr=1:length(inds)
             data = [data; descriptors(inds(itr),:)];
-        end         
+        end
     else % flag == 0
         data = descriptors;         
     end

@@ -1,4 +1,3 @@
-% Part II: Problem E Script
 % compare_bow_and_deep.m
 
 % The following script compares SIFT bag-of-words 
@@ -74,7 +73,6 @@ for query=1:2
         BoWScore = computeSimilarity(selWordCounts, otherWordCounts);
         deepScore = computeSimilarity(queryDeep, otherDeep);
 
-
         load(otherFileName, 'imname');
         imname = [framesdir '/' imname]; % get associated image with file
 
@@ -126,6 +124,7 @@ function score = computeSimilarity(queryData, otherData)
             score = 0;
         end
 end
+
 
 function histogram = computeHistogram(fname, means)
 

@@ -1,4 +1,3 @@
-
 addpath('./provided_code/');
 siftdir = './sift/';
 framesdir = './frames/';
@@ -11,7 +10,6 @@ numFrames = length(fnames);
 
 siftDescriptors = []; % Matrix of data points (descriptors)
 numDescriptors = []; % Stores number of descriptors per frame
-
 
 % Loop through the first k sift files
 for i=1:numFrames
@@ -27,7 +25,6 @@ end
 
 [membership,means,~] = kmeansML(k,siftDescriptors);
 membership = membership'; % Reshape to obtain 1 x n vector
-
 
 % Create Stop List
 words = [1:k]; % row vector of words
@@ -91,7 +88,6 @@ for i= 1:numFiles
     TF_IDF_Weights = [TF_IDF_Weights weights'];
 end
 
-%
 fname = ([siftdir '/friends_0000000394.jpeg.mat']);
 query = 'friends_0000000394.jpeg.mat';
 load(fname, 'imname');
@@ -136,10 +132,6 @@ for itr=1:5
     title(strcat('Similarity Rank:', int2str(itr)));
 end
 
-
-
-
-
 function score = computeSimilarity(queryData, otherData)
         % Pass in either histogram or deepFC7 vectors and
         % compute cosine similarity:
@@ -153,7 +145,3 @@ function score = computeSimilarity(queryData, otherData)
             score = 0;
         end
 end
-
-
-
-

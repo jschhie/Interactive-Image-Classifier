@@ -1,4 +1,3 @@
-
 addpath('./provided_code/');
 siftdir = './sift/';
 framesdir = './frames/';
@@ -22,7 +21,6 @@ for i=1:numFiles
     siftDescriptors = [siftDescriptors descriptors'];
 
     imPath = [framesdir '/' imname];
-
 
     posTable = [posTable; positions];
     orientsTable = [orientsTable; orients];
@@ -66,8 +64,5 @@ for pos=1:25
     figure(2);
     subplot(5,5,pos);
     imshow(patch2);
-end
-  
     
-
-
+end

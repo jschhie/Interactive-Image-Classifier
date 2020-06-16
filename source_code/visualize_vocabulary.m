@@ -15,6 +15,7 @@ scalesTable = [];
 
 % Loop through the first k sift files
 for i=1:numFiles
+
     % Load file
     fname = [siftdir '/' fnames(i).name];
     load(fname, 'imname', 'descriptors', 'positions', 'scales', 'orients');

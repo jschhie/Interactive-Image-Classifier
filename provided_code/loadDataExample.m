@@ -6,7 +6,6 @@ addpath('./provided_code/');
 framesdir = './frames/';
 siftdir = './sift/';
 
-
 % Get a list of all the .mat files in that directory.
 % There is one .mat file per image.
 fnames = dir([siftdir '/*.mat']);
@@ -14,7 +13,6 @@ fnames = dir([siftdir '/*.mat']);
 fprintf('reading %d total files...\n', length(fnames));
 
 N = 100;  % to visualize a sparser set of the features
-
     
 % Loop through all the data files found
 for i=1:length(fnames)
@@ -64,7 +62,6 @@ for i=1:length(fnames)
     displaySIFTPatches(positions(oninds,:), scales(oninds), orients(oninds), im); 
     plot(positions(:,1), positions(:,2), 'ro');
     title('showing features within region of interest in cyan, and all feature positions in red');
-    
     
     fprintf('hit a key to continue, ctrl-c to stop.\n\n\n');
     pause;

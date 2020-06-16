@@ -1,4 +1,4 @@
-addpath('./provided_code'); % shouldn't specify absolute path?
+addpath('./provided_code');
 load('twoFrameData.mat');
 
 oninds = selectRegion(im1,positions1);
@@ -12,12 +12,11 @@ for pos1=1:length(oninds)
        distance = dist2(descriptors1(oninds(pos1),:), descriptors2(pos2,:));
        temp(pos2) = distance; 
     end
-    closestK = find(temp < threshold); % returns a column vector
-    results = [results; closestK]; % append to results
+    closestK = find(temp < threshold); % Returns a column vector
+    results = [results; closestK]; % Append to results
 end
 
 results
 figure;
 imshow(im2);
 displaySIFTPatches(positions2(results,:), scales2(results), orients2(results), im2); 
-

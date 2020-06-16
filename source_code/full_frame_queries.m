@@ -83,7 +83,7 @@ end
 % Copied from 'kmeansMl.m' in provided_code by:
 % David R. Martin <dmartin@eecs.berkeley.edu>
 function [membership,rms] = computeMembership(data,means)
-    %fprintf('computing membership for %d x %d data, %d x %d means...\n', size(data,1),size(data,2),size(means,1),size(means,2));
+	%fprintf('computing membership for %d x %d data, %d x %d means...\n', size(data,1),size(data,2),size(means,1),size(means,2));
 	z = distSqr(data,means);
     [d2,membership] = min(z,[],2);
     rms = sqrt(mean(d2));

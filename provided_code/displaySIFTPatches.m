@@ -39,8 +39,6 @@ for i=1:N
 end
 
 
-
-
 hold on;
 for i=1:N
     line(corners{i}(2,[1:4,1]), corners{i}(1,[1:4,1]), 'Color', patchcolor, 'LineWidth', linew);

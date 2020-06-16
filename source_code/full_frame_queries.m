@@ -12,13 +12,13 @@ fileIndices = 1:numFrames;
 load('kMeans.mat', 'means');
     
 for selectedFrame=1:3
-	selFileName = [siftdir '/' fnames(frameInd(1,selectedFrame)).name]; % First file name
+    selFileName = [siftdir '/' fnames(frameInd(1,selectedFrame)).name]; % First file name
     selWordCounts = computeHistogram(selFileName,means);
         
     load(selFileName, 'imname');
     imname = [framesdir '/' imname];
         
-	queryIm = imread(imname);
+    queryIm = imread(imname);
         
     % Avoid comparing selected frame to itself:
     excludeFrame = fileIndices(fileIndices ~= frameInd(1,selectedFrame));
@@ -28,7 +28,7 @@ for selectedFrame=1:3
         
     for otherFileNames=1:(numFrames-1) % Compute histograms for other file
         # Set up 
-    	otherFileName = [siftdir '/' fnames(excludeFrame(1,otherFileNames)).name];
+        otherFileName = [siftdir '/' fnames(excludeFrame(1,otherFileNames)).name];
         otherWordCounts = computeHistogram(otherFileName, means);
             
         % Compute cosine similarity:
@@ -47,9 +47,9 @@ for selectedFrame=1:3
             
         frameTable = [frameTable; imname];
         scoreTable = [scoreTable; score];
-
-	end
         
+	end
+
     % Obtain indices of top 5 scores/frames
     [~,inds] = maxk(scoreTable,5);
         
@@ -66,25 +66,25 @@ for selectedFrame=1:3
        imshow(frameIm);
        title(strcat('Similarity Rank:', int2str(itr)));
     end
-        
+    
 end
  
     
 function histogram = computeHistogram(fname, means)    
-	% First compute membership of frame's descriptors
-  	load(fname, 'descriptors');
+    % First compute membership of frame's descriptors
+    load(fname, 'descriptors');
   	[membership, ~] = computeMembership(descriptors', means);
   	% Second, compute the histogram vectors for the frame
   	maxWord = size(means,2);
-	histogram = histc(membership, 1:maxWord);
+    histogram = histc(membership, 1:maxWord);
 end
 
 
 % Copied from 'kmeansMl.m' in provided_code by:
 % David R. Martin <dmartin@eecs.berkeley.edu>
 function [membership,rms] = computeMembership(data,means)
-	%fprintf('computing membership for %d x %d data, %d x %d means...\n', size(data,1),size(data,2),size(means,1),size(means,2));
-	z = distSqr(data,means);
+    %fprintf('computing membership for %d x %d data, %d x %d means...\n', size(data,1),size(data,2),size(means,1),size(means,2));
+    z = distSqr(data,means);
     [d2,membership] = min(z,[],2);
     rms = sqrt(mean(d2));
 end

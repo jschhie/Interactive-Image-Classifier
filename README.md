@@ -3,7 +3,7 @@
 
 
 # Project Overview
-This project serves as an interactive image classifier. Users can select either (1) a region/object within an image of choice, or (2) an entire image. The program then retrieves images most similar to the given queries. 
+This project serves as an interactive image classifier. Users can select either (1) a region/object within an image of choice, or (2) an entire image. The program then retrieves the top *n* = 5 most similar images to the given queries. 
 
 Similarity scores are computed using bag-of-words modeling and k-means clustering. 
 

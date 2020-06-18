@@ -38,7 +38,7 @@ For sake of convenience and clarity, sample results have been provided for both 
 | :---: | :-----: |
 | ![alt text](https://github.com/jschhie/image-detector-prog/blob/master/sample_outputs/region_based/sample_kitchen_table/find%20kitchen%20table.jpg?raw=true "Query: Detect Kitchen Table") | ![alt text](https://github.com/jschhie/image-detector-prog/blob/master/sample_outputs/region_based/sample_kitchen_table/kitchen%20table%20matches.jpg?raw=true "Results: Kitchen Table") | 
 
-Please see the ```sample_outputs``` directory for additional examples. Its layout and contents are detailed in the next [section](https://github.com/jschhie/image-detector-prog/#directory-layout-and-contents).
+Please see the ```sample_outputs``` directory for additional examples. Its layout and contents are detailed in the next section.
 
 # Directory Layout and Contents
 This section pertains to the ```sample_outputs``` directory. Its subdirectories and their contents are summarized below.

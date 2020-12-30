@@ -22,7 +22,7 @@ A brief description of the terminology used within this document can be found [h
 
 
 # Sample Results
-This program makes use of pre-computed SIFT and deep features, as well as their associated images. Altogether, the program's initialization requires __about 6 GB__ of data. 
+This program makes use of Scale-Invariant Feature Transform (SIFT) descriptors, as well as their associated images. Altogether, the program's initialization requires __about 6 GB__ of data. 
 
 For sake of convenience and clarity, sample results have been provided for both full-frame and region-based queries. 
 

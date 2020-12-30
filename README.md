@@ -63,4 +63,4 @@ The following list *briefly* explains some of the terminology used within this d
 * __AlexNet:__ A well-known Computer Vision application designed by Alex Krizhevsky that detected and classified objects.
 
 # Acknowledgments
-My former professor provided the template code (which can be found within the ```provided_code``` directory) and said dataset. Besides these, I implemented the rest of the source code with a coding partner. Lastly, this README was written by myself.
+My former professor provided the template code (which can be found within the ```provided_code``` directory) and said dataset. Besides these, I implemented the rest of the source code and generated sample visual demos with a coding partner. Lastly, this README was written by myself.

@@ -1,4 +1,4 @@
-# Interactive Image Classifier
+# Interactive Image Classifier for "Friends" (The One with Similarity Scores)
 > Created in Spring 2019 using MATLAB.
 
 

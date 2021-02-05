@@ -1,4 +1,6 @@
-# Interactive Image Classifier for "Friends" (The One with Similarity Scores)
+# Interactive Image Classifier for "Friends" 
+> (Season 10, Episode 19: "The One with Similarity Scores")
+
 > Created in Spring 2019 using MATLAB.
 
 

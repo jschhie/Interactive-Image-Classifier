@@ -24,9 +24,9 @@ A brief description of the terminology used within this document can be found [h
 
 
 # Sample Results
-This program makes use of Scale-Invariant Feature Transform (SIFT) descriptors, as well as their associated images. Altogether, the program's initialization requires __about 6 GB__ of data. 
+This program makes use of Scale-Invariant Feature Transform (SIFT) descriptors, as well as their associated images. 
 
-For sake of convenience and clarity, sample results have been provided for both full-frame and region-based queries. 
+Sample results have been provided below for both full-frame and region-based queries. 
 
 ## Example I: Full-Frame Query
 > Retrieves top *n* = 5 most similar video frames to selected image.
@@ -65,4 +65,4 @@ The following list *briefly* explains some of the terminology used within this d
 * __AlexNet:__ A well-known Computer Vision application designed by Alex Krizhevsky that detected and classified objects.
 
 # Acknowledgments
-My former professor provided the template code (which can be found within the ```provided_code``` directory) and said dataset. Besides these, I implemented the rest of the source code and generated sample visual demos with a coding partner. Lastly, this README was written by myself.
+My former professor provided the template code (which can be found within the ```provided_code``` directory) and dataset of video frames.

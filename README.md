@@ -9,9 +9,9 @@ This project serves as an interactive image classifier. Users can select either 
 
 Similarity scores are computed using bag-of-words modeling and k-means clustering. 
 
-Results are based off of a dataset of 6,600+ distinct video frames from the American T.V. series "Friends" (1994). Please see [visual demo](https://github.com/jschhie/image-detector-prog/#sample-results).
+Results are based off of a dataset of 6,600+ distinct video frames from the American T.V. series "Friends" (1994). <b> Note: The dataset has not been provided in this repository. </b> Please see [visual demo](https://github.com/jschhie/image-detector-prog/#sample-results) instead.
 
-A brief description of the terminology used within this document can be found [here](https://github.com/jschhie/image-detector-prog/#terminology-mentioned).
+A brief description of the terminology used can be found [here](https://github.com/jschhie/image-detector-prog/#terminology-mentioned).
 
 
 # Table of Contents
@@ -57,12 +57,30 @@ This section pertains to the ```sample_outputs``` directory. Its subdirectories 
 
 
 # Terminology Mentioned
-The following list *briefly* explains some of the terminology used within this document.
+Brief terminology:
+<dl>
+ <dt>
+  Bag-of-Words Modeling
+ </dt>
+ <dd>
+  Uses a visual vocabulary of image patches.
+ </dd>
+ 
+ <dt>
+  SIFT (algorithm/descriptors)
+ </dt>
+ <dd>
+  An abbreviation for Scale-Invariant Feature Transform. Used to describe local, unique features within images.
+ </dd>
+ 
+ <dt>
+  AlexNet
+ </dt>
+ <dd>
+ A well-known Computer Vision application designed by Alex Krizhevsky that detected and classified objects. 
+ </dd>
 
-* __Bag-of-Words Modeling:__ Uses a visual vocabulary of image patches.
-* __SIFT (algorithm/descriptors):__ An abbreviation for Scale-Invariant Feature Transform. Used to describe local, unique features within images.
-* __K-Means Clustering:__ An algorithm used to cluster, or group similar features together; used to create visual words/image patches.
-* __AlexNet:__ A well-known Computer Vision application designed by Alex Krizhevsky that detected and classified objects.
+ </dl>
 
 # Acknowledgments
 My former professor provided the template code (which can be found within the ```provided_code``` directory) and dataset of video frames.

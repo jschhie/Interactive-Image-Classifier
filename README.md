@@ -1,5 +1,4 @@
-# Interactive Image Classifier for "Friends" 
-> (Season 10, Episode 19: "The One with Similarity Scores")
+# Interactive Image Classifier for <i>Friends</i> (TV Show)
 
 > Written in MATLAB.
 

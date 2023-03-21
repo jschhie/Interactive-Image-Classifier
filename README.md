@@ -8,7 +8,7 @@ This project serves as an interactive image classifier. Users can select either 
 
 Similarity scores are computed using bag-of-words modeling and k-means clustering. 
 
-Results are based off of a dataset of 6,600+ distinct video frames from the American T.V. series "Friends" (1994). <b> Note: The dataset has not been provided in this repository. </b> Please see [visual demo](https://github.com/jschhie/image-detector-prog/#sample-results) instead.
+Results are based off of a dataset of 6,600+ distinct video frames from the American T.V. series <i>Friends</i>. <b> Note: The dataset has not been provided in this repository. </b> Please see [visual demo](https://github.com/jschhie/image-detector-prog/#sample-results) instead.
 
 A brief description of the terminology used can be found [here](https://github.com/jschhie/image-detector-prog/#terminology-mentioned).
 

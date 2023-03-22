@@ -52,28 +52,10 @@ This section pertains to the ```sample_outputs``` directory. Its subdirectories 
 | ```visual_vocab``` | Sample visual vocabulary (aka bag-of-words, where each image patch represents a "word"). |
 
 
-# Terminology Mentioned
-Brief terminology:
-<dl>
- <dt>
-  Bag-of-Words Modeling
- </dt>
- <dd>
-  Uses a visual vocabulary of image patches.
- </dd>
- 
- <dt>
-  SIFT (algorithm/descriptors)
- </dt>
- <dd>
-  An abbreviation for Scale-Invariant Feature Transform. Used to describe local, unique features within images.
- </dd>
- 
- <dt>
-  AlexNet
- </dt>
- <dd>
- A well-known Computer Vision application designed by Alex Krizhevsky that detected and classified objects. 
- </dd>
+# Terminology
+| Terminology | Description |
+| :---: | ----- |
+| *Bag-of-Words (BoW) Modeling* | A histogram of visual image patches/literal words within a given image/text; describes the frequency of unique (visual) words |
+| *SIFT (algorithm/descriptors)* |   An abbreviation for Scale-Invariant Feature Transform; describes local, unique features within images |
+| *AlexNet* | A well-known Computer Vision application designed by Alex Krizhevsky that detected and classified objects |
 
- </dl>

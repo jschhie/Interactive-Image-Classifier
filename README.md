@@ -52,8 +52,6 @@ This section pertains to the ```sample_outputs``` directory. Its subdirectories 
 | ```region_based``` | Sample results based on region-based queries. |
 | ```visual_vocab``` | Sample visual vocabulary (aka bag-of-words, where each image patch represents a "word"). |
 
-> REMARK: The subdirectories within ```full_frames``` and ```region_based``` contain pairs of queried and retrieved images.
-
 
 # Terminology Mentioned
 Brief terminology:

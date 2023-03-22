@@ -80,6 +80,3 @@ Brief terminology:
  </dd>
 
  </dl>
-
-# Acknowledgments
-My former professor provided the template code (which can be found within the ```provided_code``` directory) and dataset of video frames.

@@ -15,8 +15,8 @@ A brief description of the terminology used can be found [here](https://github.c
 
 # Table of Contents
 * [Sample Results](https://github.com/jschhie/image-detector-prog/#sample-results)
-  * [Example I: Full-Frame Query](https://github.com/jschhie/image-detector-prog/#example-i-full-frame-query)
-  * [Example II: Region-Based Query](https://github.com/jschhie/image-detector-prog/#example-ii-region-based-query)
+  * Full-Frame Query
+  * Region-Based Query
 * [Directory Layout & Contents](https://github.com/jschhie/image-detector-prog/#directory-layout-and-contents)
 * [Terminology Mentioned](https://github.com/jschhie/image-detector-prog/#terminology-mentioned)
 

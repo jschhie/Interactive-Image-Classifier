@@ -19,7 +19,6 @@ A brief description of the terminology used can be found [here](https://github.c
   * [Example II: Region-Based Query](https://github.com/jschhie/image-detector-prog/#example-ii-region-based-query)
 * [Directory Layout & Contents](https://github.com/jschhie/image-detector-prog/#directory-layout-and-contents)
 * [Terminology Mentioned](https://github.com/jschhie/image-detector-prog/#terminology-mentioned)
-* [Acknowledgments](https://github.com/jschhie/image-detector-prog/#acknowledgments)
 
 
 # Sample Results

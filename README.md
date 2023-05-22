@@ -1,4 +1,4 @@
-# Interactive Image Classifier for <i>Friends</i> (TV Show)
+# Image Similarity Search for <i>Friends</i> (TV Show)
 
 > Written in MATLAB.
 

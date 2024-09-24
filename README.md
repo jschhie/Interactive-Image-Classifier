@@ -8,14 +8,14 @@
 
 > Note: The dataset is not included in this repository. Please see the [visual demo](https://github.com/jschhie/image-detector-prog/#sample-results) for examples.
 
-For a brief description of the terminology used, see [here](https://github.com/jschhie/image-detector-prog/#terminology-mentioned).
+For a brief description of the terminology used, see [here](https://github.com/jschhie/image-detector-prog/#terminology).
 
 # Table of Contents
 * [Sample Results](https://github.com/jschhie/image-detector-prog/#sample-results)
   * Full-Frame Query
   * Region-Based Query
 * [Directory Layout & Contents](https://github.com/jschhie/image-detector-prog/#directory-layout-and-contents)
-* [Terminology Mentioned](https://github.com/jschhie/image-detector-prog/#terminology-mentioned)
+* [Terminology](https://github.com/jschhie/image-detector-prog/#terminology)
 
 # Sample Results
 This program uses Scale-Invariant Feature Transform (SIFT) descriptors, along with their associated images. 
